@@ -1,0 +1,15 @@
+﻿UC01 - Cadastrar funcionário
+UC02 - Cadastrar voz
+UC03 - Abrir porta
+UC04 - Controlar a luz por voz
+UC05 - Controlar ar-condicionado por voz
+UC06 - Analisar voz
+UC07 - Autenticar celular
+UC08 - Detectar clientes novos
+UC09 - Enviar mensagem sobre cliente novo
+
+
+UC01 - Cadastro de funcionário e sua voz
+UC02 - Controlador de acesso
+UC03 - Controlar luzes e ar-condicionado
+UC04 - Detectar cliente novo e enviar uma mensagem avisando a presença de um novo cliente 

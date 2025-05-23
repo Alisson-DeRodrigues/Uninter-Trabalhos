@@ -1,0 +1,76 @@
+Empresa: BergaWorks
+
+Conceito: administradora de finanças para agropecuária e pecuária
+
+Gestão financeira e empresárial, recursos humanos, pagamentos, financeiro, contas de energia água, materia-prima necessária para gerir o negócio
+
+Empresa tem 10 funcionáios; 1 gerente, 3 RH, 5 gestores e técnicos, 1 faxineira
+
+Ideias: automação inteligência, artificial e recursos por voz
+
+Objetivo: utilizar comandos de voz para controlar processos físicos
+
+Comandos de voz para:
+abrir portas (somente a funcionária deficiente)
+controlar o arcondicionado (6 arcondicionados 9k BTUs) (todos os funcionários)
+desligar luzes (todos os funcionários)
+
+Celular:
+abrir porta (padronizar como deve ser feito isso, como um cartão virtual de acesso/tag, ou aplicativo com senha/digital)
+
+Identificação por câmera 
+acender e apagar luzes se há pessoas no ambiente
+
+
+Problemática
+Apelo à acessibilidade para deficientes visuais, há uma funcionária com essa condição
+Muito gasto com energia, apesar das lampadas de led; eles também possuem arcondicionado
+
+
+
+Perfil do cliente: microempresas até grandes empresas
+
+
+Caracteristica da Empresa
+- gestores e tecnicos se revesam
+- gerente tem o horário mais flexíveis, 9h ate 18h, no máximo 19h
+- RH, chegam mais cedo, 8h30min até 18h, possuem o controle da porta de acesso para entrada de funcionários e receber clientes
+- funcionária deficiente visual também chega as 8h30min
+- clientes se comunicam via e-mail ou presencialmente, na época de homeoffice via teams
+- ainda não tem automação de marketing, emails, anúncios
+- a dona da empresa prioriza o contato presencial
+- ideia de ver o cliente chegando na empresa por câmera e abrir via comando de voz ou celular
+- empresa foca no setor agrícula
+- funcionamento do sistema somente em horário comercial 8h30min à 18h
+- acesso restrito aos departamentos, uma secretária recebe os clientes e redireciona para o setor gestor/tecnico ou RH
+- geralmente os cliente possuem acesso somente aos gestores/tecnicos, pois o RH atende internamente a empresa, mas na falta deles, o RH pode ser acionado
+- controle de acesso rígido à sala do gerente (movimentação de dinheiro e documentos immportantes) e ao RH (não há necessidade do acesso livre pela secretária e os gestores/técnicos)
+- a CEO deseja um servidor local para as tarefas autônomas, sem conexão necessária com a internet
+- hall de entrada (sala da secretária), RH, 3 sala de gestores (cada uma com 2 gestores), sala do gerente, copa (ala de descanso, café, alimentação)
+- automação da porta é o objetivo mais urgente para ajudar a funcionária com deficiência visual
+- a empresa fica em um prédio comercial, correndo risco de acesso por agentes externos
+- é necessário autorização prévia para realizar furos na instalação, pois o local é locado; os horários para realizar reformas com barulhos é das 8h até as 16h ou 17h, proibido finais de semana e parada para o almoço obrigatórias
+- o prédio em que fica a empresa também é aberto em horário comercial
+- Funcionária deficiente do RH tem acesso a todas as áreas
+- portas já são abertas por tags, mas ela quer implemetar abertuara via celular
+(- ela quer que somente a funcionária deficiente tenha acesso ao comando de voz)
+
+
+Resumo
+Integrar um sistema de controle por voz para dar acessibilidade a uma funcionária cega e integrar esse sistema com controle de iluminação e arcondicionado; esses dois últimos sem restrinção de funcionário
+Sistema autônomo que controle o arcondicionado de acordo com a presença de pessoas no ambiente, observado por câmeras
+Sistema de reconhecimento de pessoas para oferecer um feedback sobre clientes novos
+Todo o sistema fica em um servidor local, sem conexão com a internet, exceto para o envio de mensagens via whatssap
+Informar via whatsapp quando novos clientes forem detectados
+
+
+
+
+
+
+
+
+
+
+
+

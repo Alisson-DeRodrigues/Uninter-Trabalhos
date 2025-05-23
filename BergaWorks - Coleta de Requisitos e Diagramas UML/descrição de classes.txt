@@ -1,0 +1,79 @@
+﻿Classe Funcionário
+Atributos:
+nomeFuncionario: Nome do funcionário
+id: identificador do funcionário
+idade: idade do funcionário
+sexo: sexo do funcionário
+departamento: departamento do qual o funcionário faz parte
+
+Métodos:
+===
+Classe faceAI - AI de reconhecimento de face
+Atributos
+rostoConhecido: bool (informa se o rosto analisado é de um novo cliente ou não)
+
+Métodos:
+codificarRosto() (codifica o rosto de entrada)
+autenticarPresenca() (retorna se há uma pessoa no ambiente)
+autenticarRostoCliente() (retornar se o rosto analisado é de um cliente novo)
+===
+Classe vozAI - AI de reconhecimento de voz
+Atributos:
+vozConhecida: bool (informa se a voz analisada é conhecida ou não)
+
+Métodos:
+codificarVoz() - codifica a voz de entrada
+autenticarVoz(voz, servidor) : bool - retorna se a voz analisada corresponde a uma voz cadastrada e com autorização
+====
+Classe Servidor
+Atributos:
+funcionariosCadastrados: lista (lista com todos os funcionários cadastrados)
+vozesCadastradas: lista (lista com todas as vozes cadastradas)
+rostosCadastrados: lista (lista com todos os rostos cadastrados
+clienteCadastrado: lista (com todos os clientes da empresa)
+luzesCadastradas: lista (lista com todos as luzes cadastradas)
+arcondicinadosCadastrados: lista (lista com todos os ar-condicionado cadastrados)
+camerasCadastradas: lista (lista com todos as câmeras cadastradas)
+autorizacaoEspecialAcesso: lista (lista com permissões de acessos a recursos de acordo com o funcionário)
+
+Métodos:
+cadastrarFuncionario(nomeFuncionario, idade, sexo, departamento)
+cadastrarVoz(dadoVoz, funcionario) // lembrar do cadastro de voz do cliente
+cadastrarRosto() //diferenciar cliente de funcionário
+abrirPorta(comando, autorizacao)
+controlarArcondicionado(comando, autorizacao)
+automacaoArcondicionado() - controla o ar-condicionado de acordo com a presença de pessoas no ambiente 
+controlarLuz(comando, autorizacao)
+====
+Classe luzes
+Atributos:
+idSala: texto (identificador da sala com as luzes)
+estadoLuz: bool (luz ligada ou desligada)
+
+Métodos:
+autorizarMudancaEstado(servidor) - verifica se há permissão para alterar o estado e realiza a mudança 
+====
+Classe ar-condicionado
+Atributos:
+idArcondicionado: texto (identificador do ar-condicionado)
+estadoArcondicionado: bool (ligado ou desligado)
+temperatura: num (temperatura ar-condicionado)
+
+Métodos:
+autorizarMudancaEstado(servidor) - verifica se há permissão para alterar o estado do ar-condicionado e realiza a mudança
+autorizarMudancaTemperatura(servidor) - verifica se há permissão para alterar a temperatura e realiza essa mudança
+====
+Classe porta
+idPorta: texto (identificador da porta)
+estadoPorta: bool (aberto ou trancado)
+
+Métodos:
+autorizarMudancaEstado(servidor) - verifica se há permissão para alterar o estado da porta e realiza a mudança
+====
+Classe câmera
+idCamera: texto (identificador da câmera)
+====
+Classe Cliente
+Atributos
+nomeCliente: texto
+id: texto (identificador do cliente)

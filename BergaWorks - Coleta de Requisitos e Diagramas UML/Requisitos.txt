@@ -1,0 +1,21 @@
+Sistema de Automação da BergaWorks (RU 4381452)
+
+Requisitos funcionais
+RF01 - O sistema deve permitir o cadastro de novos funcionários
+RF02 - O sistema deve permitir cadastrar a voz dos funcionários
+RF03 - O sistema deve analisar a voz dos funcionários
+RF04 - O sistema deve ser capaz de abrir as portas com comando de voz
+RF05 - O sistema deve ser capaz de abrir as portas pelo celular
+RF06 - O sistema deve ser capaz de alterar o estado das luzes por comando de voz
+RF07 - O sistema deve ter controle automático de ar-condicionado de acordo com a presença de pessoas no ambiente por meio das câmeras
+RF08 - O sistema deve utilizar reconhecimento facial para detectar clientes novos
+RF09 - O sistema deve enviar uma mensagem quando um cliente novo for detectado
+
+
+Requisitos não funcionais
+RNF01 - O sistema deve funcionar em um servidor local sem a necessidade de internet
+RNF02 - A análise da voz pelo sistema deve ser rápida e com erro mínimo de identificação
+RNF03 - O tempo para a abertura da porta após a autorização de acesso do sistema deve ser mínimo
+RNF04 - A interface de cadastro de novos funcionários e de voz deve ser simples
+RNF05 - Os protocolos utilizados para a autenticação dos funcionários devem ser seguros contra tentativas de fraude
+RNF06 - O sistema deve garantir a segurança dos dados biometricos das vozes cadastras
